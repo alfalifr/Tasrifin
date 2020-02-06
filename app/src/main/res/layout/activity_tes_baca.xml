@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".TesBacaActivity">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Baca kalimat ini:"
+         android:id="@+id/lblBaca"
+         android:layout_centerHorizontal="true"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Assalamualaikum"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/txtKonten"
+         android:layout_below="@id/lblBaca"
+         android:textSize="20dp"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Tekan tombol mic untuk berbicara"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/lblTekan"
+         android:layout_below="@id/txtKonten"
+         android:layout_marginTop="30dp"
+         />
+     <ImageButton
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:id="@+id/btnVoice"
+         android:background="@null"
+         android:src="@drawable/ic_mic"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@id/lblTekan"
+         android:scaleType="fitCenter"
+         android:layout_marginTop="20dp"
+         />
+
+
+</RelativeLayout>

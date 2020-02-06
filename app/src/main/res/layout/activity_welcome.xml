@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="#ffffff"
+    android:clipToPadding="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/welcome1"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgWelcome1"
+                />
+
+            <TextView
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtWelcomeJudul"
+                android:text="Bisa Dengan Santai"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textColor="#585858"
+                android:layout_below="@id/imgWelcome1"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kini belajar Bahasa Arab dan Kitab Kuning bisa dengan mudah langsung di smartphone Anda"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="#585858"
+                android:layout_below="@id/txtWelcomeJudul"
+                android:layout_marginTop="30dp"
+                android:id="@+id/txtWelcomeDetail"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Lanjutkan"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:elevation="15dp"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"
+                android:layout_below="@id/txtWelcomeDetail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnLanjutkan"
+                android:layout_marginBottom="30dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

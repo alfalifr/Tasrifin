@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tasrifin</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Belajar</string>
+    <string name="title_notifications">Baca Kitab</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_activity_tes_baca">TesBacaActivity</string>
+</resources>
